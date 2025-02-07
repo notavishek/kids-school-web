@@ -2,9 +2,72 @@
 
 .quicksand-normal {
     font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
   }
   
   /* nav styles */
+  .navigation{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 190px;
+  }
+ .logo{
+    display: flex;
+ }
+ .logo img{
+    width: 62px;
+    height: 62px;
+ }
+ .logo h2{
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0%;
+ }
+ .features-name{
+  padding: 5px;
+  margin-right: 80px;
+ }
+ ul{
+   display: flex;
+   gap: 40px;
+ }
+ ul li{
+   list-style: none;
+ }
+ ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+ }
+ #f-1{
+  color: orange;
+ }
+ #f-2{
+  color: skyblue;
+ }
+ #f-3{
+  color: #05D4DF;
+ }
+ #f-4{
+  color: #5D58EF;
+ }
+ .contact-btn{
+  font-family: "Quicksand", serif;
+  width: 197px;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: #FFA300;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600px;
+ }
+ .contact-btn:hover{
+  background-color: #ffffff;
+  border: #FFA300 1px solid ;
+  cursor: pointer;
+  color: orange;
+ }
