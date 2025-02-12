@@ -6,7 +6,7 @@
   
   /* nav styles */
   .navigation{
-    padding: 20px 40px;
+    padding: 20px 140px 0px 120px;
     display: flex;
     justify-content: space-around;
     gap: 190px;
@@ -71,3 +71,123 @@
   cursor: pointer;
   color: orange;
  }
+ .check-btn{
+  font-size: 30px;
+  color: black;
+  float: right;
+  margin-right: 50px;
+  line-height: 100px;
+  cursor: pointer;
+  display: none;
+}
+.ham-icon{
+  display: none;
+}
+.mobile{
+  display: none;
+}
+/* banner-styles */
+.banner-container{
+  display: flex;
+  gap: 50px;
+  margin: 18px 140px;
+}
+.banner-text{
+  margin-top: 122px;
+}
+.banner-header{
+  padding-right: 150px;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 61px;
+  letter-spacing: 0%;
+}
+.ylo-text{
+  color: orange;
+}
+.blu-text{
+  color:  #01ACFD;
+}
+.banner-description{
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 100px;
+}
+.banner-btn{
+  margin-top: 24px;
+}
+.enroll-btn{
+  font-family: "Quicksand", serif;
+  width: 197px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: black;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600px;
+}
+ .enroll-btn:hover{
+  background-color: #ffffff;
+  border: black 1px solid ;
+  cursor: pointer;
+  color: black;
+ }
+.phn-banner-img{
+  display: none;
+}
+
+
+
+
+
+
+ 
+@media (max-width: 572px){ 
+  .logo h2{
+    display: none;
+ } 
+ .logo-img{
+  display: none;
+ }
+li a{
+    display: none;
+  }
+  .contact{
+    display: none;
+  }
+  .ham-icon{
+    display: block;
+  }
+  .mobile{
+    display: block;
+  }
+  .mobile-nav{
+    position: relative;
+    top: -8px;
+    left: -8px;
+    width: 494px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border: 1px solid orange ;
+  }
+  .ham-icon{
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+  }
+  .banner-container{
+    display: none;
+  }
+  .phn-banner-img{
+    display: block;
+  }
+  .phn-kid-img{
+    padding: 10px 20px;
+    width: 473px;
+    height: 583px;
+  }
+}
